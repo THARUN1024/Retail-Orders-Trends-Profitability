@@ -1,19 +1,14 @@
-## Overview
+## Project Overview
 
-- Analyzed a retail orders dataset to understand sales, profit, and customer trends.  
-- Cleaned and prepared data: handled missing values, fixed date formats, and created new columns for selling price, profit, and total sale.  
-- Used both Python (pandas, NumPy) and PostgreSQL to calculate metrics and answer business questions.  
-- Aggregated data by product, category, city, region, month, and year to find top performers and growth trends.  
-- Leveraged window functions and CTEs in PostgreSQL for advanced ranking and trend comparisons.
+Analyzed a sample retail sales dataset to uncover business insights using Python libraries like **pandas** and **NumPy**. The analysis involved cleaning and transforming the data, engineering new metrics such as profit and total sales, and identifying trends across products, regions, and time. The goal was to highlight profitable products, top-performing cities, and customer preferences through detailed breakdowns and aggregations.
+
+---
 
 ## Skills Used
 
-- **Python**  
-- **pandas** (data loading, cleaning, grouping, aggregation, pivot tables)  
-- **NumPy** (numeric calculations, averages)  
-- **PostgreSQL** (SELECT, DISTINCT, GROUP BY, CTEs, window functions, ordering)  
-- **Date Handling** (converting strings to datetime, extracting month/quarter/year)  
-- **Feature Engineering** (calculating unit selling price, unit profit, total sale, total profit)  
-- **Data Aggregation & Ranking** (`groupby` in pandas; `dense_rank`/`row_number` in SQL)  
-- **Time Series Analysis** (year‑over‑year and month‑over‑month comparisons)  
-- **Sorting & Filtering** (identifying top products, regions, and sub‑categories)  
+- **Python (pandas, NumPy)**: For data manipulation, aggregation, and numerical operations.  
+- **Data Cleaning**: Handled null values, formatted date columns, and renamed fields for clarity.  
+- **Feature Engineering**: Created new columns such as `Unit_Selling_Price`, `Unit_Profit`, `Total_Profit`, and `Total_Sale`.  
+- **Exploratory Data Analysis (EDA)**: Used `groupby`, sorting, filtering, and pivot tables to explore product performance and regional trends.  
+- **Time-Series Analysis**: Extracted month, quarter, and year from order dates to identify seasonal patterns.  
+- **Profitability & Sales Analysis**: Identified top products and regions by profit and sales volume.
